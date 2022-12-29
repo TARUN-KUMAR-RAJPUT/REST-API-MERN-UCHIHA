@@ -9,7 +9,7 @@ This will result in successful connection of MongoDB with express.
 #Steps to get the data of database in express environment in browser.
 
 1. Hit url (dont forget to add /api)
-   http://localhost:3000/api
+   http://localhost:3000/api Or
    http://localhost:3000/api/uchihas
 
 #About this project
