@@ -18,30 +18,3 @@ This will result in successful connection of MongoDB with express.
 2. Add bootstrap <script> and css file in index.html of react build.
 3. Make structure as shown in repo.
 4. npm start in CMD.
-
-
-#Dynamic image rendering in react
-1. Put Images folder in public folder of react build.
-2. Follow below snipet
-
-   <!-- var path = "Images/"
-    return (
-      <div className="text-info">
-        <MyForm toggle={toggle} />
-        <ul>
-          {user &&
-            user.length > 0 &&
-            user.map((userObj, index) => (
-              <div>
-                <img
-                  src = {path + userObj.name + ".jpg"}
-                  alt="Logo" 
-                  width="150"
-                  height="200"
-                />
-                <h4>{userObj.name}</h4>
-              </div>
-            ))}
-        </ul>
-      </div>
-    ); -->
