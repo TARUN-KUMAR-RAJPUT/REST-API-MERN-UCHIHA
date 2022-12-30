@@ -24,7 +24,7 @@ This will result in successful connection of MongoDB with express.
 1. Put Images folder in public folder of react build.
 2. Follow below snipet
 
-   var path = "Images/"
+   <!-- var path = "Images/"
     return (
       <div className="text-info">
         <MyForm toggle={toggle} />
@@ -44,4 +44,4 @@ This will result in successful connection of MongoDB with express.
             ))}
         </ul>
       </div>
-    );
+    ); -->
